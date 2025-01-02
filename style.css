@@ -302,6 +302,11 @@ body{
     -o-border-radius: 20px;
 }
 
+.box .btn:hover{
+    border: #ffffff 1.8px solid;
+    font-size: 89%;
+}
+
 .box2{
     height: 100%;
     width: 90%;
