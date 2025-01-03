@@ -367,14 +367,155 @@ body{
 
 .main-content{
     overflow: scroll;
-    background-color: #121212;
-    color: white;
+    background: rgb(255,255,255);
+    background: rgb(65,65,65);
+    background: rgb(43,43,43);
+    background: rgb(43,43,43);
+    background: linear-gradient(180deg, rgba(43,43,43,1) 7%, #121212 100%);
     flex: 1;
-    height: 89.3%;
+    height: 83%;
     border-radius: 8px;
     margin-top: 60px;
+    margin-right: 8px;
+}
+
+.boxx{
+    display: wrap;
+    flex: 1;
+}
+
+
+
+.h{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.boxx .h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 20px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.h1:hover{
+    text-decoration: underline;
+}
+
+.h .para{
+    position: relative;
+    padding-top: 20px;
+    right: 10px;
+    padding-right: 10px;
+    a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.548);
+        font-size: 12px;
+        font-weight: 650;
+    }
+}
+
+.para:hover{
+    text-decoration: underline;
+}
+
+.pa{
+    display: flex;
+    justify-content: space-evenly;
+    height: 230px;
+    /* padding-top: 10px; */
+    width: 100%;
+    padding-left: 15px;
 
 }
+
+.ar{
+    background-color: transparent;
+    width: 180px;
+    /* margin-right: 10px; */
+}
+
+.ar:hover{
+    background-color: rgba(67, 66, 66, 0.443);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    /* margin-top: 8px; */
+    img{
+        width: 90%;
+        height: 160px;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: #12121242 1px solid;
+    }
+}
+
+.name{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.artist{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff7f;
+}
+
+.picc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 5px; */
+    img{
+        width: 95%;
+        height: 160px;
+        border-radius: 10px;
+        overflow: hidden;
+        object-fit: cover;
+        border: #12121242 1px solid;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+}
+
+
+
+
+
+
 
 .player{
     background-color: rgb(0, 0, 0);
